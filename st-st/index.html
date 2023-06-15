@@ -1,0 +1,683 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Главная страница</a></li>
+              <li class="scroll-to-section"><a href="#services">Услуги</a></li>
+              <li class="scroll-to-section"><a href="#pricing">Абонементы</a></li>
+              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Войти сейчас</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Войти</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-vk"></i></span>
+                    <span class="icon_title">Войти через ВКонтакте</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Войти через Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Или используйте ваш Email</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Войти</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Регистрация</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Имя пользователя</label>
+                <input type="text" />
+                <br />
+
+                <label>Пароль</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Запомнить на этом компьютере</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Назад</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Войти</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Забыли пароль?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Полное имя</label>
+                <input type="text" />
+                <br />
+
+                <label>Email</label>
+                <input type="email" />
+                <br />
+
+                <label>Пароль</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Отправлять информацию на Email</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Назад</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Регистрация</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Начните заниматься прямо сейчас</h2>
+                    <p>Я помогу вам достичь ваших целей в области фитнеса и здорового образа жизни. Я имею большой опыт работы в этой области и готов поделиться своими знаниями и навыками с вами. Я уверен, что с моей помощью вы сможете достичь своих целей и улучшить свое здоровье и самочувствие. На моем сайте вы также найдете отзывы и рекомендации от моих клиентов, которые уже добились успеха благодаря моей помощи.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/slider-dec.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>Удивительные <em>Услуги &amp; Функции</em> для вас</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>Под контролем личного тренера</h4>
+            <p>У вас будет личный тренер, котрый будет следить за вашими успехами.</p>
+            <div class="text-button">
+              <a href="#">Прочитать больше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>По видеосвязи</h4>
+            <p>Смартфон, планшет, ноутбук (Zoom, Skype, WhatsApp, пр.). Выбирайте то, что удобно вам.</p>
+            <div class="text-button">
+              <a href="#">Прочитать больше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>В любое время, в любом месте</h4>
+            <p>Тренировки в любых часовых поясах, спортзале, дома или в офисе.</p>
+            <div class="text-button">
+              <a href="#">Прочитать больше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>С заботой о себе</h4>
+            <p>Мы за здоровье и хорошее самочувствие, а не за спорт высоких достижений и сильные нагрузки.</p>
+            <div class="text-button">
+              <a href="#">Прочитать больше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>About <em>What We Do</em> &amp; Who We Are</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Maintance Problems</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">24/7 Support &amp; Help</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Fixing Issues About</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Co. Development</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing  magna.</p>
+              <div class="gradient-button">
+                <a href="#">Start 14-Day Free Trial</a>
+              </div>
+              <span>*No Credit Card Required</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/about-right-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div id="clients" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Посмотрите что <em>Наши клиенты говорят</em> О нас</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p> -->
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Евгения</h4>
+                            <span class="date">30 ноября 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.8</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Александра</h4>
+                            <span class="date">15 ноября 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Кристина</h4>
+                            <span class="date">24 октября 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.7</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Екатерина</h4>
+                            <span class="date">7 октября 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">3.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Елизавета</h4>
+                            <span class="date">17 сентября 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.3</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-lg-5">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Я очень благодарна своему фитнес тренеру, который помог мне достичь своих целей и улучшить мое здоровье. С самого начала я была новичком в фитнесе, но благодаря его профессиональным знаниям и опыту, я постепенно стала все более уверенной в своих способностях.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Евгения</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Тренер разработал для меня индивидуальную программу тренировок и питания, которая помогла мне сбросить вес и укрепить мои мышцы. Кроме того, он всегда был готов ответить на мои вопросы и дать советы по здоровому образу жизни.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Александра</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Я очень довольна результатами и рекомендую этот сервис всем, кто хочет достичь своих целей в области фитнеса и здоровья. Тренера здесь настоящие профессионалы своего дела и заботятся о своих клиентах. Спасибо, за вашу помощь и поддержку!”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Кристина</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Я хочу выразить огромную благодарность моему фитнес тренеру за его профессионализм и энтузиазм. Он помог мне изменить свою жизнь к лучшему и достичь невероятных результатов.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Екатерина</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Тренер разработал для меня индивидуальную программу тренировок, которая была идеально подходит для моих целей и физических возможностей. Он также дал мне ценные советы по питанию и здоровому образу жизни, которые помогли мне улучшить мое здоровье и самочувствие.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Елизавета</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>У нас лучшая <em>Цена</em> Среди конкурентов</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">₽2700</span>
+            <h4>3 Тренировки</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Занятия онлайн</li>
+              <li>Правильное питание</li>
+              <li>Поддержка</li>
+              <li>Анализ результатов</li>
+              <li>Полный фидбек</li>
+              <li>Гарантия</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Купить этот абонемент сейчас</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price">₽4000</span>
+            <h4>5 Тренировок</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Занятия онлайн</li>
+              <li>Правильное питание</li>
+              <li>Поддержка</li>
+              <li>Анализ результатов</li>
+              <li>Полный фидбек</li>
+              <li>Гарантия</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Купить этот абонемент сейчас</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">₽5600</span>
+            <h4>8 Тренировок</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Занятия онлайн</li>
+              <li>Правильное питание</li>
+              <li>Поддержка</li>
+              <li>Анализ результатов</li>
+              <li>Полный фидбек</li>
+              <li>Гарантия</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Купить этот абонемент сейчас</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Присоединяйтесь к нашей email рассылке, чтобы получать новости &amp; последние тренды</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Подписаться сейчас <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Связаться с нами</h4>
+            <p>Moscow, Arbat, Russian Federation</p>
+            <p><a href="#">+7(916)-555-49-92</a></p>
+            <p><a href="#">fatuev_vladimir@mail.ru</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>О нас</h4>
+            <ul>
+              <li><a href="#">Главная страница</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Абонементы</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Полезные ссылки</h4>
+            <ul>
+              <li><a href="#">Фитнес</a></li>
+              <li><a href="#">Полезное питание</a></li>
+              <li><a href="#">Спортивная одежда</a></li>
+              <li><a href="#">Тренировки</a></li>
+            </ul>
+            <!-- <ul>
+              <li><a href="#">App Dev Team</a></li>
+              <li><a href="#">Digital Web</a></li>
+              <li><a href="#">Normal Apps</a></li>
+            </ul> -->
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>О нашей компании</h4>
+            <div class="logo">
+              <img src="assets/images/white-logo.png" alt="">
+            </div>
+            <p>Сайт для записи к фитнес-тренерам.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
+          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
